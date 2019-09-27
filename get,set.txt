@@ -1,0 +1,11 @@
+var Mobile = {
+type: "iphone",
+ model: "XS",
+ color : "black",
+get colGet(){
+  return this.color; },
+set colSet(value){
+  this.color = value ;}
+};
+Mobile.color = "red";
+document.write(Mobile. colGet) ;
